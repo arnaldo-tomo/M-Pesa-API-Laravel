@@ -11,7 +11,7 @@
     <img src="mpesalogo.svg" width="200px" data-bs-toggle="modal" data-bs-target="#staticBackdrop" alt="">
 
 
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    <div class="modal fade sm" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered ">
             <div class=" modal-content ">
