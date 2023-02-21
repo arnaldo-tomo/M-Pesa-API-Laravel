@@ -19,12 +19,12 @@ class PagamentoController extends Controller
             // Public Key
             'serviceProviderCode' => '171717' // Service Provider Code
         ]);
-
+        $numero = 258;
         $paymentData = [
-            'from' => '258.$request->numero.',       // Customer MSISDN
-            'reference' => '11114',      // Third Party Reference
+            'from' => '258846474687',       // Customer MSISDN
+            'reference' => '11115',      // Third Party Reference
             'transaction' => 'T12344CC', // Transaction Reference
-            'amount' => '505'             // Amount
+            'amount' => '80'             // Amount
         ];
 
         $result = $client->receive($paymentData);
