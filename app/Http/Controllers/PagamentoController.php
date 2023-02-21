@@ -21,10 +21,10 @@ class PagamentoController extends Controller
         ]);
 
         $paymentData = [
-            'from' => '258840325487',       // Customer MSISDN
+            'from' => '258.$request->numero.',       // Customer MSISDN
             'reference' => '11114',      // Third Party Reference
             'transaction' => 'T12344CC', // Transaction Reference
-            'amount' => '5005'             // Amount
+            'amount' => '505'             // Amount
         ];
 
         $result = $client->receive($paymentData);
