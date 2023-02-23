@@ -35,7 +35,7 @@
                             </div>
                         </div>
                         <div class="d-grid gap-2 container mb-4">
-                            <button class="btn btn-primary" id="btnFetch" type="Submit">PAGAR COM M-PESA</button>
+                            <button class="btn btn-primary" type="Submit">PAGAR COM M-PESA</button>
                         </div>
                     </form>
                 </div>
