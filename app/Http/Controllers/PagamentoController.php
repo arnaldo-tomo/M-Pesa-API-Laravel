@@ -24,17 +24,20 @@ class PagamentoController extends Controller
             'from' => '258846474687',       // Customer MSISDN
             'reference' => '11115',      // Third Party Reference
             'transaction' => 'T12344CC', // Transaction Reference
-            'amount' => '80'             // Amount
+            'amount' => '20510'             // Amount
         ];
 
         $result = $client->receive($paymentData);
 
+
+
+
         if ($result->success) {
             // Handle success
-            echo "certo";
+            dd($result);
         } else {
             // Handle failure
-            echo "Nao";
+            dd($result);
         }
     }
 }
